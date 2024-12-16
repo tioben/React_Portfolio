@@ -1,0 +1,28 @@
+:root {
+  /* 1 < More dark*/
+  --background-darkcolor1: #c6caeb;
+  --background-darkcolor2: #9aa0c8;
+  --background-darkcolor3: #737ba5;
+  --background-darkcolor4: #515a82;
+  --background-darkcolor5: #353d60;
+  --background-darkcolor5: #1d243d;
+  --background-darkcolor5: #0a0e1a;
+
+  --font-darkcolor1: #23395d;
+  --font-darkcolor2: #203354;
+  --font-darkcolor3: #1c2e4a;
+  --font-darkcolor4: #192841;
+
+  --font-lightcolor1: rgb(230, 230, 230);
+  --font-lightcolor2: rgb(190, 190, 190);
+  --font-lightcolor3: rgb(150, 150, 150);
+  --font-lightcolor4: rgb(110, 110, 110);
+}
+
+* {
+  background-color: var(--background-darkcolor5);
+  color: var(--font-lightcolor4);
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,9 @@
+.Avatar {
+  border-radius: 100%;
+  width: 30%;
+}
+
+.Main {
+  height: 100vh;
+  display: flex;
+}
