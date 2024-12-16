@@ -4,11 +4,12 @@ import Container from "../../../../components/container/Container.jsx";
 
 function Hero() {
   return (
-    <Container>
       <div className={styles.Main}>
-        <img src={Avatar} alt="Avatar do usuário" className={styles.Avatar} />
+        <div className={styles.img_Content}>
+          <img src={Avatar} alt="Avatar do usuário" className={styles.Avatar} />
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit cupiditate optio asperiores assumenda natus architecto, et quidem obcaecati commodi aut in. Autem aut laborum velit animi nulla deleniti temporibus.</p>
       </div>
-    </Container>
   );
 }
 
