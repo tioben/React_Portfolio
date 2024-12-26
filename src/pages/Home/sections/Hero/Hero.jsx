@@ -1,11 +1,9 @@
 import styles from "./Hero.module.css";
 import AvatarImg from "../../../../assets/images/avatar.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import Button1 from "../../../../components/buttons/Button1";
+import DownloadButton from "../../../../components/buttons/DownloadButton";
 import Avatar from "../../../../components/img_container/Avatar";
 import Title_Typing from "../../../../components/animations/Title_Typing";
+import NavegateIcons from "../../../../components/buttons/NavegateIcons";
 
 function Hero() {
   return (
@@ -24,16 +22,12 @@ function Hero() {
         subtitleColor={"var(--font-lightcolor2)"} />
 
         <div className={styles.hero_buttons}>
-          <Button1 
+          <DownloadButton
           text="Download CV"
           buttonBackground={"var(--font-darkcolor1)"} 
           buttonColor={"var(--font-lightcolor2)"} 
           />
-          <div>
-            <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-            <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
-            <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
-          </div>
+          <NavegateIcons />
         </div>
       </div>
     </div>
